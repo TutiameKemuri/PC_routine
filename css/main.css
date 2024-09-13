@@ -1,0 +1,30 @@
+/* タイマー全体のコンテナ */
+#timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* 画面の高さ全体を使用 */
+  font-family: Arial, sans-serif;
+  margin: 0; /* 外部マージンをリセット */
+}
+
+/* タイマーのラベル */
+#timer-label {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* タイマーの表示 */
+#timer-display {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+/* タイマーのボタン */
+.timer-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+}
