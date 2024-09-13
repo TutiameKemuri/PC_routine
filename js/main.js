@@ -12,8 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     { minutes: 5, seconds: 0, label: '洗顔' },
     { minutes: 20, seconds: 0, label: '朝ごはん' },
     { minutes: 10, seconds: 0, label: '着替え' },
-    { minutes: 5, seconds: 0, label: '歯磨き' },
-    { minutes: 0, seconds: 10, label: '歯磨き２' }
+    { minutes: 5, seconds: 0, label: '歯磨き' }
   ];
 
   let currentIntervalIndex = 0;  // 現在のタイマーインデックスを保持
